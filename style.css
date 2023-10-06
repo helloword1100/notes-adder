@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    padding-top: 4%;
+    padding-left: 10%;
+    width: auto;
+    height: auto;
+}
+.main img{
+    width: 38px;
+}
+.main h1{
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    margin: 12px 12px;
+}
+.main h1 img{
+    padding: 0 9px;
+}
+.submit{
+    padding: 9px 35px;
+    
+}
+
+.submit button{
+    display: flex;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+  padding: 6px 40px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.input-container{
+    padding: 19px 23px;
+}
+.input-feild{
+    background-color: white;
+    margin-top: 2vw;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    outline: 0;
+    min-height: 150px;
+    color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.input-feild img{
+width: 25px;
+position: absolute;
+bottom: 15px;
+right: 15px;;
+cursor: pointer;
+}
